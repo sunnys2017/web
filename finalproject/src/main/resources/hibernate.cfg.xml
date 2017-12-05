@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD//EN"
+                                         "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+ <session-factory>
+  <property name="hibernate.hbm2ddl.auto">update</property>
+  <property name="show_sql">true</property>
+  <mapping class="edu.neu.finalproject.model.UserAccount"/>
+  <mapping class="edu.neu.finalproject.model.Record"/>
+  <mapping class="edu.neu.finalproject.model.Patient"/>
+  <mapping class="edu.neu.finalproject.model.Medicine"/>
+  <mapping class="edu.neu.finalproject.model.Invoice"/>
+  <mapping class="edu.neu.finalproject.model.Doctor"/>
+  <mapping class="edu.neu.finalproject.model.Appointment"/>
+  <mapping class="edu.neu.finalproject.model.Admin"/>
+  
+ </session-factory>
+
+</hibernate-configuration>

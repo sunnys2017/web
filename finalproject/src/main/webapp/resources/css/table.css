@@ -1,0 +1,15 @@
+@CHARSET "UTF-8";
+        #tableTry {  
+            border: 1px solid #B1CDE3;  
+            padding:0;   
+            margin:0 auto;  
+            border-collapse: collapse;  
+        }  
+          
+        #tdTry {  
+            border: 1px solid #B1CDE3;  
+            background: #fff;  
+            font-size:12px;  
+            padding: 3px 3px 3px 8px;  
+            color: #4f6b72;  
+        }  

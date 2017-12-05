@@ -1,0 +1,29 @@
+@CHARSET "UTF-8";
+
+    #all{
+        background:white;
+		font:normal 100% ;
+		margin:0px;
+		padding:0px;}
+    #top{
+        background-color:#009fcc; 
+        height:100px; 
+        }
+    #left{    
+ 
+		background:white;
+		border:2px solid #fff;
+		margin:10px 0px 20px 20px;
+		padding:0px;
+		position:absolute;
+		top:160px;
+		left:0px;
+		width:160px;
+		height:450px;
+    }
+    #right{
+		background:white;
+		border:2px solid #fff;
+		margin:10px 20px 20px 200px;
+		padding:0px;}
+    

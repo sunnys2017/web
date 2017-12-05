@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="edu.neu.bookshop.Address" table="ADDRESS">
+		<id name="id" type="long" column="ID">
+			<generator class="native" />
+		</id>
+		<property name="city" type="string" column="CITY" />
+		<property name="street" type="string" column="STREET" />
+		<property name="doorplate" type="string" column="DOORPLATE" />
+		<set name="customers" table="CUSTOMER_ADDRESS" inverse="true">
+			<key column="ADDRESS_ID" />
+			<many-to-many column="CUSTOMER_ID" class="edu.neu.bookshop.Customer" />
+		</set>
+	</class>
+</hibernate-mapping>
